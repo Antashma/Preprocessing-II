@@ -1,7 +1,7 @@
 .makeBtn {
   width: 100%;
   padding: 10px 0;
-  background: teal;
+  background: #17A2B8;
   font-size: 1.8rem;
   text-align: center;
   color: white;
@@ -177,6 +177,17 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #212529;
+  text-decoration: none;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -187,6 +198,11 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .header-top {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lime;
 }
 .home .content-section {
   margin: 30px 0;
@@ -237,7 +253,7 @@ img {
 .home .content-pick .destination .btn {
   width: 100%;
   padding: 10px 0;
-  background: teal;
+  background: #17A2B8;
   font-size: 1.8rem;
   text-align: center;
   color: white;
