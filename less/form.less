@@ -1,0 +1,33 @@
+.user-form {
+    padding:20px 0;
+    border-top: 2px dashed @navigation-border;
+    .flexIt();
+    font-size: 1.8rem;
+    .flexIt-Flow(column, nowrap);
+    justify-content: space-around;
+    label {
+        margin:10px 0;
+    }
+    input {
+        font-size:2.5rem;
+    }
+    .frm-choices {
+        // margin:10px 0;
+        .flexIt();
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        label:first-of-type {
+            width:100%;
+            order:-1;
+        }//label
+    } //frm-choices
+    .frm-userInfo {
+        .flexIt-Flow(column, wrap);
+        justify-content: space-between;
+    } //frm-user-info
+    .btn {
+        margin:15px 0;
+        .makeBtn(); 
+    }
+} //user-form

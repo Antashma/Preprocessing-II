@@ -79,24 +79,33 @@
     </section>
 
     <section class="user-form">
-      <!-- form stuff -->
-      <label for="user-pkges">Select your vacation pakage:</label>
-      <input type="radio" name='pkge-choice' id='pkg-choice-funsun' />
-      <input type="radio" name='pkge-choice' id='pkg-choice-mountain' />
-      <input type="radio" name='pkge-choice' id='pkg-choice-island' />
-      <label>Name:</label>
-      <input type='text' id='frm-user-name' value='' />
-      <label>Email:</label>
-      <input type='text' id='frm-user-email' value='' />
-      <label>Phone:</label>
-      <input type='text' id='frm-user-phone' value='' />
-      <label for='frm-instructions'>Anything you'd like us to know?</label>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <h2>Request More Info</h2>
+      <div class='frm-choices'>
+        <label for="pkge-choice">Select your vacation pakage:</label>
+        <label for="pkg-choice-funsun">Fun in the Sun</label>
+        <input type="radio" name='pkge-choice' id='pkg-choice-funsun' />
+        <label for="pkg-choice-mountain">Mountain Excursion</label>
+        <input type="radio" name='pkge-choice' id='pkg-choice-mountain' />
+        <label for="pkg-choice-island">Island Getaway</label>
+        <input type="radio" name='pkge-choice' id='pkg-choice-island' />
+      </div>
+      <div class="frm-userInfo">
+        <label>Name:</label>
+        <input type='text' name="user-info" id='frm-user-name' value='' />
+        <label>Email:</label>
+        <input type='text' name="user-info" id='frm-user-email' value='' />
+        <label>Phone:</label>
+        <input type='text' name="user-info" id='frm-user-phone' value='' />
+        <label for='frm-instructions'>Anything you'd like us to know?</label>
+        <textarea name="user-info" id="frm-user-special" cols="30" rows="10"></textarea>
+
+        <button class='btn'>Submit</button>
+      </div>
     </section>
   </div><!-- container -->
 
   <footer class="footer">
-    <p>Copyright Fun Bus 2018</p>
+    <p>&copy; Fun Bus 2018-2020</p>
   </footer>
 
 </body>
