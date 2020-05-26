@@ -1,1 +1,23 @@
 // Navigation Styles here
+nav {
+    width: 40%;
+    .flexIt();
+    justify-content: space-around;
+    @media @mobile {
+        width: 100%;
+        margin-top:20px;
+    }
+    a {
+        position: relative;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: @font-color;
+        text-decoration: none;
+        @media @mobile {
+           // font-size: 1.8rem;
+        }
+        &:hover {
+        .highlight(1s, ease-out);
+        }
+    } //a
+} //nav

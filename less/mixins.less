@@ -1,1 +1,26 @@
-// Mixins in here
+.makeBtn {
+    width: 100%;
+    padding: 10px 0;
+    background:@button-bg;
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.flexIt() {
+    display: flex;
+}
+
+.flexIt-Flow(@dir, @wrap) {
+    display: flex;
+    flex-flow: @dir @wrap;
+}
+
+.testBorder(@color) {
+    border:1px solid @color;
+}
+
+.highlight(@dur, @ease) {
+    animation: standout @dur @ease both;
+}
